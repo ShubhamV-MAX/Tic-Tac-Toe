@@ -1,6 +1,5 @@
 let boxes = document.querySelectorAll(".box");
 let newGameBut = document.querySelector("#newGame");
-let resetButton = document.querySelector("#resetButton");
 let winner = document.createElement("h1");
 document.querySelector("h1").prepend(winner);
 
@@ -58,11 +57,5 @@ newGameBut.addEventListener("click", () => {
     });
     winner.innerText = "";
 });
-resetButton.addEventListener("click", () => {
-    boxes.forEach((box) => {
-        box.innerText = "";
-        box.disabled = false;
-    });
-    winner.innerText = "";
 });
 

@@ -40,7 +40,7 @@ h1{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
-#newGame, #resetButton{
+#newGame{
     background-color: #ffb703;
     color: #023047;
     border: none;
